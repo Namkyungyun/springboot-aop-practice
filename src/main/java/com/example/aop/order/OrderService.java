@@ -15,6 +15,4 @@ public class OrderService {
         log.info("[service] orderItem 실행");
         orderRepository.save(itemId);
     }
-
-
 }
